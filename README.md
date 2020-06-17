@@ -1,12 +1,12 @@
-#Skillock of Web
+# Skillock of Web
 
 Code Basis on [https://github.com/352Media/skilltree](https://github.com/352Media/skilltree)
 
 [![Build Status](https://travis-ci.org/phodal/skilltree.svg?branch=gh-pages)](https://travis-ci.org/phodal/skilltree)
 
-##Development
+## Development
 
-###技术栈
+### 技术栈
 
  - Knockout
  - RequireJS
@@ -14,21 +14,26 @@ Code Basis on [https://github.com/352Media/skilltree](https://github.com/352Medi
 
  - Gulp
 
-###Setup
+### Setup
 
 1.Install Dependencies
 
-    sudo npm install
+    npm install --ignore-scripts
+    install -g gulp
+    bower install
+    gulp serve 
     
+
 2.develop
     
 3.test
     
+
     gulp test
 
 > Web技能树
 
-##说明
+## 说明
 
 所需技能:
 
@@ -36,9 +41,9 @@ Code Basis on [https://github.com/352Media/skilltree](https://github.com/352Medi
  - 后台
  - 部署
  - 数据库
- 
+
 所需软技能:
- 
+
   - 分析
   - 设计
   - UI
